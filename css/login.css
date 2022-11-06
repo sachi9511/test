@@ -1,0 +1,102 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: serif;
+    color: white;
+    
+
+
+}
+.register-img {
+   
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.register-img img{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+   
+    
+    height: 90%;
+    
+
+}
+.footer_registor{
+    position: relative;
+    z-index: 21;
+    bottom: 0;
+    margin-bottom: 60px;
+   
+}
+
+
+.main-container {
+    text-align: center;
+    background-color: rgba(67, 29, 29, 0.8);
+    padding: 5px 5px;
+    margin-top: 4%;
+    margin-left: 60%;
+    margin-right: 15%;
+    color: rgb(255, 255, 255);
+   
+    border-radius: 20px;
+    margin-bottom: 5%;
+    box-shadow: rgb(170, 170, 200) 0px 54px 55px, rgba(227, 226, 231, 0.969) 0px -12px 30px, rgb(212, 210, 229) 0px 4px 6px, rgba(229, 231, 239, 0.95) 0px 12px 13px, rgba(2, 23, 213, 0.969) 0px -3px 5px;
+    z-index: 7;
+    position: relative;
+   
+    
+}
+
+
+
+.btn {
+    border: 2px solid white;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(165, 26, 123);
+    color: white;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: serif;
+    box-shadow: rgb(100, 100, 100) 0px 54px 55px, rgba(227, 226, 231, 0.969) 0px -12px 30px, rgb(212, 210, 229) 0px 4px 6px, rgba(229, 231, 239, 0.95) 0px 12px 13px, rgba(2, 23, 213, 0.969) 0px -3px 5px;
+}
+
+
+
+
+.email,.password{
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px 5px;
+
+    background-color: rgb(204, 134, 181);
+}
+
+
+.subc-form label {
+    float: left;
+    margin: 5%;
+    font-size: 20px;
+}
+
+.heading h1 {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.btn:hover {
+    color: #bee21e;
+    box-shadow: rgb(170, 170, 200) 0px 54px 55px, rgba(227, 226, 231, 0.969) 0px -12px 30px, rgb(212, 210, 229) 0px 4px 6px, rgba(229, 231, 239, 0.95) 0px 12px 13px, rgba(2, 23, 213, 0.969) 0px -3px 5px;
+    
+}
+

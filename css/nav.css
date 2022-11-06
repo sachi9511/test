@@ -1,0 +1,169 @@
+/*navigation*/
+* {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: serif;
+}
+.logo {
+  width: 80px;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: absolute;
+}
+nav {
+  width: 100%;
+  background: #dd5da8;
+  height: 100px;
+  z-index: 10;
+  position: relative;
+}
+
+nav ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  float: left;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+nav ul li {
+  float: left;
+  margin-top: 10px;
+}
+nav ul li a {
+  width: 120px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: serif;
+  font-weight: bold;
+  margin: 20px;
+}
+nav a:hover {
+  background: #669900;
+}
+nav ul li ul {
+  background: #dd5da8;
+  position: absolute;
+  margin: 0;
+  display: none;
+}
+nav ul li ul li {
+  float: none;
+}
+nav ul li ul {
+  display: none;
+}
+nav ul li:hover {
+  display: block;
+}
+
+.search-bar {
+  display: flex;
+  border-radius: 60px;
+
+  background: rgba(255, 255, 255, 0.2);
+  float: right;
+}
+
+.searchBtn {
+  float: right;
+  background: #669900;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-bar input {
+  background: transparent;
+  border-radius: 15px 0 0 15px;
+  border: 0px solid;
+  padding: 10px;
+  font-size: 16px;
+}
+.search-bar input:focus {
+  outline: none;
+}
+.bar {
+  margin-top: 30px;
+}
+
+.logout {
+  width: 100px;
+  /* height: 50px; */
+  position: absolute;
+  margin-top: 20px;
+  height: 40px;
+  background: none;
+  color: white; 
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
+  text-align: center;
+  border: none;
+
+
+
+}
+.logout:hover{  
+  border-radius: 10px;
+  background: #669900;
+cursor: pointer; 
+
+
+}
+
+.form1 {
+  position: absolute;
+  right: -200px;
+}
+
+.dropbtn {
+  margin-top: 13px;
+  background-color: #dd5da8;;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dd5da8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logout img{
+  width: 50px;
+}

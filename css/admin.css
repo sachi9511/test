@@ -1,0 +1,35 @@
+/*navigation*/
+body {
+  overflow-x: hidden;
+}
+nav {
+  height: 119px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item1 {
+  background-color: #f896cf;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  width: 150px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.grid-item2 {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5%;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  width: 90%;
+  border-color: white;
+
+}

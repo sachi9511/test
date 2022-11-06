@@ -1,0 +1,106 @@
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+nav {
+  height: 120px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 0;
+}
+
+.grid-item1 {
+  background-color: royalblue;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  width: 150px;
+  height: 1000px;
+}
+
+.grid-item2 {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5%;
+  font-size: 30px;
+  text-align: center;
+  width: 1300px;
+  border-color: white;
+
+}
+
+/* all item tike */
+table {
+  height: 500px;
+  width: 1000px;
+  color: rgb(0, 0, 0);
+  font-size: 20pt;
+  font-style: normal;
+}
+
+table.inner {
+  border: 0px;
+}
+.input{
+  width: 60%;
+  height: 40%;
+}
+form{
+  margin-left: 70px;
+}
+.btn{
+  margin-left: 260px;
+  border: 2px solid white;
+   
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    width: 80px;
+    padding: 5px;
+    font-size: large;
+    font-family: serif;
+    box-shadow: rgba(227, 226, 231, 0.969) 0px -12px 30px, rgb(212, 210, 229) 0px 4px 6px, rgba(229, 231, 239, 0.95) 0px 12px 13px, rgba(2, 23, 213, 0.969) 0px -3px 5px;
+
+}
+.btn2:hover {
+  color: #bee21e;
+  box-shadow: rgb(170, 170, 200) 0px 54px 55px, rgba(227, 226, 231, 0.969) 0px -12px 30px, rgb(212, 210, 229) 0px 4px 6px, rgba(229, 231, 239, 0.95) 0px 12px 13px, rgba(2, 23, 213, 0.969) 0px -3px 5px;
+  cursor: pointer;
+  
+}
+.btn-reset{
+  border: 2px solid white;
+   
+    border-radius: 10px;
+    background-color: red;
+    color: rgb(231, 214, 214);
+    width: 80px;
+    padding: 5px;
+    font-size: large;
+    font-family: serif;
+    box-shadow: rgba(227, 226, 231, 0.969) 0px -12px 30px, rgb(212, 210, 229) 0px 4px 6px, rgba(229, 231, 239, 0.95) 0px 12px 13px, rgba(2, 23, 213, 0.969) 0px -3px 5px;
+
+}
+
+.error{
+  margin-left: -570px;
+  font-size: 20px;
+  color:red;
+}
+
+.edit-item-btn{
+  margin-left: 300px;
+  
+
+}
+
+
+
+
+

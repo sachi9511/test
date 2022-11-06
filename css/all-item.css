@@ -1,0 +1,71 @@
+body {
+    overflow-x: hidden;
+    background-color: #ffffff;
+  }
+  
+  nav {
+    height: 120px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+    padding: 0;
+  }
+  
+  .grid-item1 {
+    background-color: royalblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    width: 150px;
+  }
+  .grid-align{
+      margin-left: 40px;
+  }
+  .edit-section a input{
+      display: inline-block;
+    }
+    .edit-section{
+        
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+
+  .content{
+      display: inline-block;
+      margin-right: 15px;
+  }
+ 
+  .edit-btn{
+   
+    border: 2px solid white;
+     
+      border-radius: 10px;
+      background-color: orange;
+      color: white;
+     
+      padding: 10px;
+      font-size: large;
+      font-family: serif;
+      
+  }
+  .delete-btn{
+    border: 2px solid white;
+     
+    border-radius: 10px;
+    background-color: rgb(241, 13, 13);
+    color: white;
+   
+    padding: 10px;
+    font-size: large;
+    font-family: serif;
+    
+    
+  }
+ 
+  
+  
+  

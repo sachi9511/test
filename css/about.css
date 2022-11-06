@@ -1,0 +1,33 @@
+.about {
+  background: -webkit-linear-gradient(left, #19d119c9, #636e5e);
+  padding: 2%;
+  position: absolute;
+  z-index: 1;
+}
+
+.about-left {
+  color: #fff;
+  margin-top: 3%;
+}
+
+.about-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+
+.about .about-form {
+  padding: 5%;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer_registor {
+  margin-top: 470px;
+}

@@ -1,0 +1,90 @@
+.wrapper h1 {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.s-img img {
+  padding: 0 20px 20px;
+  width: 300px;
+  height: 300px;
+}
+img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
+}
+/*category*/
+.wrapper1 h1 {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+.img-area1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.s-img1 img {
+  padding: 0 20px 20px;
+  width: 300px;
+  height: 300px;
+}
+img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
+}
+
+/* vvvvvv*/
+.cont1 {
+  display: flex;
+}
+.cont2 {
+  display: flex;
+  margin-left: 40px;
+}
+.card {
+  background: rgba(202, 44, 123, 0.89);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.card-image {
+  height: 270px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card {
+  background: rgba(202, 44, 123, 0.89);
+  width: 300px;
+  height: 100px;
+  border-radius: 0 0 5px 5px;
+}
+
+.card:hover {
+  background-color: #669900;
+}
+
+.cardx {
+  margin-top: -44px;
+}
+
+.cont1 {
+  margin-top: -47px;
+  border-radius: 0 0 5px 5px;
+}
