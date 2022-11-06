@@ -41,9 +41,9 @@ $result = $conn->query("SELECT * FROM add_item ORDER BY id DESC");
 
                                 <?php echo $row['fname']; ?>
                             </h2>
-                            <h3>
+                            <h3 style="color:#B5B5B5;">
 
-                                <?php echo $row['price']; ?>
+                                <span>Rs. </span><?php echo $row['price']; ?><span>/=</span>
                             </h3>
                         </div>
 

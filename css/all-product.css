@@ -23,6 +23,7 @@ body {
 img:hover {
   opacity: 0.5;
   transition: 0.9s;
+  
 }
 
 .card {
@@ -31,5 +32,5 @@ img:hover {
   height: 80px;
   margin: 20px;
   text-align: center;
-  color: beige;
+  color: #D0D0D0;
 }

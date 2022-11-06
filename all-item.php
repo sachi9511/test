@@ -10,47 +10,6 @@ if ($_SESSION && $_SESSION['usertype'] === "admin") {
     exit();
 }
 
-$error = "";
-if (isset($_POST['submit'])) {
-    $name = $_POST['fname'];
-    $price = $_POST['price'];
-    $catagory = $_POST['catagory'];
-    $description = $_POST['description'];
-
-    if ($name) {
-        if ($price) {
-            if ($catagory) {
-                if ($description) {
-                    // image
-                    $imageCount = count($_FILES['image']['name']);
-                    $allimage = array();
-                    for ($i = 0; $i < $imageCount; $i++) {
-                        $imageName = $_FILES['image']['name'][$i];
-                        $imageTempName = $_FILES['image']['tmp_name'][$i];
-                        $targetPath = "./upload/" . $imageName;
-                        if (move_uploaded_file($imageTempName, $targetPath)) {
-                            array_push($allimage, $imageName);
-                        }
-                    }
-                    $sql = "INSERT INTO add_item (image1,image2,image3,fname, price, catagory, description ) VALUES ('$allimage[0]','$allimage[1]','$allimage[2]','$name', '$price', '$catagory', '$description')";
-
-                    if ($conn->query($sql) === TRUE) {
-                        header("Location: add_item.php");
-                        exit();
-                    }
-                } else {
-                    $error = "Description Requred";
-                }
-            } else {
-                $error = "Catagory Requred";
-            }
-        } else {
-            $error = "Price Requred";
-        }
-    } else {
-        $error = "Name Requred";
-    }
-}
 
 if (isset($_POST['btn'])) {
     $id = $_POST['delete'];

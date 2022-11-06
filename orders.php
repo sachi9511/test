@@ -9,7 +9,7 @@ if ($_SESSION && $_SESSION['usertype'] === "admin") {
     header("Location: index.php");
     exit();
 }
-
+// searchbar kotasa
 $userId = $_SESSION['user_id'];
 $allOrder = "";
 $approvedOrder = "";
@@ -21,6 +21,7 @@ if (isset($_POST['search'])) {
     $approvedOrder = empty($_POST['approved']) ? "" : $_POST['approved'];
     $canceledOrder = empty($_POST['canceled']) ? "" : $_POST['canceled'];
     $new_orders = empty($_POST['new_orders']) ? "" : $_POST['new_orders'];
+   
     if ($allOrder) {
         $result = $conn->query("SELECT * FROM oder ORDER BY id DESC");
     } else if ($approvedOrder && $canceledOrder && $new_orders) {
@@ -43,7 +44,7 @@ if (isset($_POST['search'])) {
         $result = $conn->query("SELECT * FROM oder WHERE status=2");
     }
 }
-
+// table 
 if (isset($_POST['accept-btn'])) {
     $id = $_POST['pr-id'];
     $sql = "UPDATE oder SET status=1 WHERE id=$id";

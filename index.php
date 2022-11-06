@@ -73,7 +73,7 @@ if (isset($_POST['searchBtn'])) {
 
                                 <?php echo $row['fname']; ?>
                             </h2>
-                            <h3>
+                            <h3 style="color:#B5B5B5;">
 
                                 <span>Rs. </span><?php echo $row['price']; ?><span>/=</span>
                             </h3>
@@ -99,15 +99,15 @@ if (isset($_POST['searchBtn'])) {
 
                 <section class="cont1">
                     <div class="card ">
-                        <h2><a href="search.php"> Ladies Sandals</a></h2>
+                        <h2><a href="search.php" style="color:aqua;"> Ladies Sandals</a></h2>
 
                     </div>
                     <div class="card ">
-                        <h2><a href="search.php"> Ladies Flip Flops</a></h2>
+                        <h2><a href="search.php" style="color:aqua;"> Ladies Flip Flops</a></h2>
 
                     </div>
                     <div class="card ">
-                        <h2><a href="search.php"> Ladies Heel</a></h2>
+                        <h2><a href="search.php" style="color:aqua;"> Ladies Heel</a></h2>
 
                     </div>
 
@@ -123,15 +123,15 @@ if (isset($_POST['searchBtn'])) {
                 <div class="s-img1"><a href="search.php?catagory=Sport"><img src="images/catogory/sports.jpg"></a></div>
                 <section class="cont1">
                     <div class="card ">
-                        <h2><a href="search.php"> Women's Closed Shoes</a></h2>
+                        <h2><a href="search.php" style="color:aqua;"> Women's Closed Shoes</a></h2>
 
                     </div>
                     <div class="card ">
-                        <h2><a href="search.php">Women's Casual Shoes</a></h2>
+                        <h2><a href="search.php" style="color:aqua;">Women's Casual Shoes</a></h2>
 
                     </div>
                     <div class="card ">
-                        <h2><a href="search.php"> Women's Sport</a></h2>
+                        <h2><a href="search.php" style="color:aqua;"> Women's Sport</a></h2>
 
                     </div>
 

@@ -77,14 +77,16 @@ h3 {
 }
 
 .card:hover {
-  background-color: #669900;
+  background-color: #f25278;
 }
 
 .cardx {
   margin-top: -44px;
+  color: #ededed;
 }
 
 .cont1 {
   margin-top: -47px;
   border-radius: 0 0 5px 5px;
+  
 }

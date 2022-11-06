@@ -4,7 +4,7 @@ include 'database_connection.php';
 include 'App/logout.php';
 // check the login && who is user
 if ($_SESSION && $_SESSION['usertype'] === "admin") {
-    $auth = $_SESSION['usertype'];
+    // $auth = $_SESSION['usertype'];
 } else {
     header("Location: index.php");
     exit();
